@@ -1,4 +1,4 @@
-# Valo Score Counter
+# Basketball Score Counter
 
 Quick start:
 
