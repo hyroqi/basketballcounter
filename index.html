@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="tournament-name"> BASKETBALL SCORE COUNTER</h1>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score">
+                    <p id="homeEl">0</p>
+                </div>
+                <div class="buttons">
+                    <button class="score-button" onclick="homeincrement1pt()">+1</button>
+                    <button class="score-button" onclick="homeincrement2pt()">+2</button>
+                    <button class="score-button" onclick="homeincrement3pt()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score">
+                    <p id="awayEl">0</p>
+                </div>
+                <div class="buttons">
+                    <button class="score-button" onclick="awayincrement1pt()">+1</button>
+                    <button class="score-button" onclick="awayincrement2pt()">+2</button>
+                    <button class="score-button" onclick="awayincrement3pt()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

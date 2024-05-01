@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'valorant';
+    src: url('fonts/Valorant.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0 20vw;
+    font-family: 'valorant';
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tournament-name{
+    font-family: 'valorant';
+}
+
+.container {
+    font-family: 'valorant';
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    font-size: 7em;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    font-family: 'valorant';
+    text-shadow: 5px 5px black;
+}
+
+
+.buttons{
+    height: auto;
+}
+
+.score-button{
+    font-family: 'valorant';
+    font-size: 1.5em;
+    margin: 35px 15px 35px 15px;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    background-color: inherit;
+    transition: ease;
+    transition-duration: 200ms;
+}
+
+button:active {
+    vertical-align: top;
+    margin-top: 37px;
+}
+
+button:hover{
+    background-color: #303030;
+}
